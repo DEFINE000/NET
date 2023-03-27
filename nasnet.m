@@ -5,6 +5,20 @@ save("nasnet.mat","trained_net");
 
 
 
+system("git init");
+system("git lfs install");
+system("git lfs track *")
+system("git add .gitattributes")
+system('git commit -m "first"');
+system('git remote add origin https://github.com/DEFINE000/NET.git')
+system("git push orgin master");
+system("git add *.mat");
+system('git commit -m "nb"');
+system("git push origin master")
+
+
+
+
 
 
 
