@@ -7,6 +7,8 @@ save("nasnet.mat","trained_net");
 
 system("git init");
 system("git lfs install");
+system('git config --global user.email "2978985731@qq.com"')
+system('git config --global user.name "vc"')
 system("git lfs track *")
 system("git add .gitattributes")
 system('git commit -m "first"');
