@@ -13,8 +13,8 @@ system("git lfs track *")
 system("git add .gitattributes")
 system('git commit -m "first"');
 system('git remote add origin https://github.com/DEFINE000/NET.git')
-system("git push orgin master");
-system("git add *.mat");
+system("git push origin master");
+system("git add *");
 system('git commit -m "nb"');
 system("git push origin master")
 
